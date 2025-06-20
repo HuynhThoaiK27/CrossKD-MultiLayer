@@ -21,7 +21,7 @@ In our method, **intermediate features from multiple layers** of the student mod
 | Dataset     | Teacher (Backbone)      | Student (Backbone)     | Method           | mAP   |
 |-------------|--------------------------|-------------------------|------------------|--------|
 | Pascal VOC  | Faster R-CNN (ResNet-101) | Faster R-CNN (ResNet-50) | Baseline         | 70.1   |
-|             |                          |                          | CrossKD-IFC      | **74.0** |
+|             |                          |                          | CrossKD-IFC      | **73.5** |
 | COCO        | Faster R-CNN (ResNet-50)  | Faster R-CNN (ResNet-18) | Baseline         | 33.5   |
 |             |                          |                          | CrossKD-IFC      | **35.9** |
 
