@@ -35,6 +35,7 @@ Our code is based on **https://github.com/jbwang1997/CrossKD** Please follow the
 
 ## Add and Replace the codes
 Replace the mmdet/models/detectors/crosskd_two_stage.py in CrossKD's codes with crosskd_two_state.py in our codes.
+
 Add the crosskd_r18_faster-rcnn_r50_fpn_1x_coco.py in our codes to CrossKD's configs/crosskd/ .
 
 
