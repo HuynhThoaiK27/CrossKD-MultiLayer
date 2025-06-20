@@ -34,8 +34,8 @@ These results confirm that our **Intermediate Feature Combination** strategy out
 Our code is based on **https://github.com/jbwang1997/CrossKD** Please follow the installation of CrossKD and make sure you can run it successfully.
 
 ## Add and Replace the codes
-# Add configs
-cp -r configs/ <your_mmdetection_path>/configs/
+Replace the mmdet/models/detectors/crosskd_two_stage.py in CrossKD's codes with crosskd_two_state.py in our codes.
+Add the crosskd_r18_faster-rcnn_r50_fpn_1x_coco.py in our codes to CrossKD's configs/crosskd/ .
 
 
 
